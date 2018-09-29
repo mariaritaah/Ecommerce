@@ -36,7 +36,7 @@
   <div class="login-box-body">
     <p class="login-box-msg">Logue-se</p>
 
-    <form action="App/session.php" method="post">
+    <form action="../ecommerce/App/session.php" method="post">
       <div class="form-group has-feedback">
         <input type="text" name="username" class="form-control" placeholder="Nome">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
