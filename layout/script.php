@@ -70,7 +70,7 @@ $head = '<!DOCTYPE html>
 
 $header = '<header class="main-header">
 <!-- Logo -->
-<a href="index2.html" class="logo">
+<a href="index.php" class="logo">
   <!-- mini logo for sidebar mini 50x50 pixels -->
   <span class="logo-mini"><b>A</b>LT</span>
   <!-- logo for regular state and mobile devices -->
@@ -180,8 +180,7 @@ $header = '<header class="main-header">
               </li>
               <li>
                 <a href="#">
-                  <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                  page and may cause design problems
+                  <i class="fa fa-warning text-yellow"></i> Você possui compras pendentes!
                 </a>
               </li>
               <li>
@@ -362,10 +361,10 @@ $aside = '<!-- Left side column. contains the logo and sidebar -->
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
-        <li class="header">MAIN NAVIGATION</li>
+        <li class="header">Principal</li>
         <li class="active treeview">
           <a href="'.$url.'">
-            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <i class="fa fa-dashboard"></i> <span>Painel de Controle</span>
             
           </a>
           
@@ -373,7 +372,7 @@ $aside = '<!-- Left side column. contains the logo and sidebar -->
         <li class="treeview">
           <a href="#">
             <i class="fa fa-files-o"></i>
-            <span>Layout Options</span>
+            <span>Opções de Layout</span>
             <span class="pull-right-container">
               <span class="label label-primary pull-right">4</span>
             </span>
@@ -384,14 +383,6 @@ $aside = '<!-- Left side column. contains the logo and sidebar -->
             <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
             <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
           </ul>
-        </li>
-        <li>
-          <a href="pages/widgets.html">
-            <i class="fa fa-th"></i> <span>Widgets</span>
-            <span class="pull-right-container">
-              <small class="label pull-right bg-green">new</small>
-            </span>
-          </a>
         </li>
         <li class="treeview">
           <a href="#">
@@ -465,49 +456,6 @@ $aside = '<!-- Left side column. contains the logo and sidebar -->
             
           </ul>
         </li>
-
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-laptop"></i>
-            <span>Elementos de Interface</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/UI/general.html"><i class="fa fa-circle-o"></i> Geral</a></li>
-            <li><a href="pages/UI/icons.html"><i class="fa fa-circle-o"></i> Ícones</a></li>
-            <li><a href="pages/UI/buttons.html"><i class="fa fa-circle-o"></i> Botões</a></li>
-            <li><a href="pages/UI/sliders.html"><i class="fa fa-circle-o"></i> Deslizar</a></li>
-            <li><a href="pages/UI/timeline.html"><i class="fa fa-circle-o"></i> Linha do Tempo</a></li>
-            <li><a href="pages/UI/modals.html"><i class="fa fa-circle-o"></i> Modelos</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-edit"></i> <span>Forms</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> Elementos Gerais</a></li>
-            <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Elementos Avançados</a></li>
-            <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editores</a></li>
-          </ul>
-        </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-table"></i> <span>Tabelas</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i> Tabelas simples</a></li>
-            <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Tabelas de dados</a></li>
-          </ul>
-        </li>
         <li>
           <a href="pages/calendar.html">
             <i class="fa fa-calendar"></i> <span>Calendário</span>
@@ -527,24 +475,7 @@ $aside = '<!-- Left side column. contains the logo and sidebar -->
             </span>
           </a>
         </li>
-        <li class="treeview">
-          <a href="#">
-            <i class="fa fa-folder"></i> <span>Exemplos</span>
-            <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
-            </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="pages/examples/invoice.html"><i class="fa fa-circle-o"></i> Fatura</a></li>
-            <li><a href="pages/examples/profile.html"><i class="fa fa-circle-o"></i> Perfil</a></li>
-            <li><a href="pages/examples/login.html"><i class="fa fa-circle-o"></i> Logar</a></li>
-            <li><a href="pages/examples/register.html"><i class="fa fa-circle-o"></i> Registrar</a></li>
-            <li><a href="pages/examples/lockscreen.html"><i class="fa fa-circle-o"></i> Bloqueio de tela</a></li>
-            <li><a href="pages/examples/404.html"><i class="fa fa-circle-o"></i> Erro 404</a></li>
-            <li><a href="pages/examples/500.html"><i class="fa fa-circle-o"></i> Erro 500</a></li>
-            <li><a href="pages/examples/blank.html"><i class="fa fa-circle-o"></i> Página em Branco</a></li>
-          </ul>
-        </li>
+      
         <li class="treeview">
           <a href="#">
             <i class="fa fa-share"></i> <span>Multilevel</span>
@@ -578,7 +509,7 @@ $aside = '<!-- Left side column. contains the logo and sidebar -->
           </ul>
         </li>
         <li><a href="documentation/index.html"><i class="fa fa-book"></i> <span>Documentação</span></a></li>
-        <li class="header">LABELS</li>
+        <li class="header">Textos</li>
         <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Importante</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-yellow"></i> <span>Atenção</span></a></li>
         <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Informação</span></a></li>
