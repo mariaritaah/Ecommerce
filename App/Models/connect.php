@@ -9,7 +9,7 @@
  	var $localhost = "localhost";
  	var $root = "root";
  	var $passwd = "";
- 	var $database = "controlestoque";
+ 	var $database = "ecommerce";
  	var $SQL;
  	
 
@@ -25,17 +25,12 @@
 
  	function login($username, $password){
 
-        //Primeiro consulta a tabela de usuário, verificando o resultado linha por linha, se encontrado, vai pra senha.
-        //Retornando automaticamnete 
  		$this->query  = "SELECT * FROM `usuario` WHERE `Username` = '$username'";
  		$this->result = mysqli_query($this->SQL, $this->query) or die(mysqli_error($this->SQL));
  		$this->total  = mysqli_num_rows($this->result);
 
  		if($this->total){
 
-            //Pega todo o array resultante e desfaz a criptografia para analisar a senha correspondente.
-            //Aceitando, retorna uma sessão para o id desse usuário, seu nome, foto e a permissão que ele detém.
-            //Redirecioando para o index da pasta view.
  			$this->dados = mysqli_fetch_array($this->result);
  			if(!strcmp($password, $this->dados['Password'])){
 
@@ -46,13 +41,9 @@
  				
  				header("Location: ../views/");
  			}else{
-                 
-            //Resusando senha, atualiza a página retornando um alerta de senha inválida.
  				header("Location: ../login.php?alert=2");
  			}
  		}else{
-             
-            //Resusando usuário, atualiza a página retornando um alerta de usuário inválido.
  				header("Location: ../login.php?alert=1");
  			}
  	}
