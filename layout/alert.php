@@ -3,6 +3,9 @@
 if(isset($_GET['alert'])){
 
 echo '<div class="box-body">';
+
+	//Switch que realiza a verificação das operações de GET e a partir do valor informado na operação
+	//como sendo 0 para Erro e 1 para Sucesso, o mesmo gerará um ícone de alerta na tela informado o devido procedimento.
 	switch ($_GET['alert']) {
 		case '0':
 			echo '<div class="alert alert-warning alert-dismissible">
@@ -18,7 +21,6 @@ echo '<div class="box-body">';
                 
               </div>';
 			break;
-		
-		}//switch
+		}
 	echo'</div>';
 }

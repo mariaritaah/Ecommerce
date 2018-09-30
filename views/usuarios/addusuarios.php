@@ -41,17 +41,17 @@ if($perm == 1){
             <form role="form" enctype="multipart/form-data" action="../../App/Database/insertuser.php" method="POST">
               <div class="box-body">
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nome do Usuário</label>
+                  <label for="exampleInputEmail1">Nome</label>
                   <input type="text" name="username" class="form-control" id="exampleInputEmail1" placeholder="Nome do usuário">
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleInputEmail1">E-mail do Usuário</label>
+                  <label for="exampleInputEmail1">E-mail</label>
                   <input type="text" name="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail do usuário">
                 </div>
 
                 <div class="form-group">
-                  <label for="exampleInputEmail1">digite uma senha</label>
+                  <label for="exampleInputEmail1">Senha</label>
                   <input type="password" name="password" class="form-control" id="exampleInputEmail1" placeholder="Password">
                 </div>
                  
@@ -59,10 +59,11 @@ if($perm == 1){
 
              
                 <div class="form-group">
-                  <label for="exampleInputEmail1">digite uma senha</label>
+                  <label for="exampleInputEmail1">Selecione uma Imagem</label>
                <input id="arquivo" name="arquivo" type="file" class="form-control" id="exampleInputEmail1" placeholder="Imagem">
                 </div>
                 <div class="form-group">
+                <label for="exampleInputEmail1">Perfil</label>
                 <select name="permissao" class="form-control">
                 <option value="1">Administrador</option>
                 <option value= "2">Vendedor</option>

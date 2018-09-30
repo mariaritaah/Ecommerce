@@ -6,9 +6,12 @@ echo $head;
 echo $header;
 echo $aside;
 echo '<div class="content-wrapper">';
-
-echo 'Usuário: '.$usuario.'</br>Perfil: ';
-echo $perm;
+echo '<b>Seja bem vindo '.$usuario.'</br>Você têm permissões de: </b>';
+    if($perm == 1){
+        echo '<b><i> Administrador </b></i>', $perm;
+    }else{
+        echo '<b><i> Usuário </b></i>', $perm;
+    }
 
 echo '</div>';
 

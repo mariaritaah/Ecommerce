@@ -1,4 +1,8 @@
 <?php
+//Arquivo base do projeto, aqui acontecerá todas as configurações padrões das páginas web, isto inclui a utilização
+//correta das variáveis publicos HEAD que cuida da parte de HTML, CCS e JAVASCRIPT com booststrap,
+//Header com toda a parte de cabeçalho, ASIDE com a lateral das páginas e suas devidas incrementações, como o slider
+//e por fim o Footer cuidando da área de rodapé das mesmas.
 
 $url = 'http://localhost/ecommerce/views/';
 
@@ -95,7 +99,7 @@ $header = '<header class="main-header">
               <span class="label label-success">4</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 4 messages</li>
+              <li class="header">Você tem 04 mensagens</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
@@ -105,10 +109,10 @@ $header = '<header class="main-header">
                         <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
-                        Support Team
-                        <small><i class="fa fa-clock-o"></i> 5 mins</small>
+                        Suporte
+                        <small><i class="fa fa-clock-o"></i> 5 minutos</small>
                       </h4>
-                      <p>Why not buy a new awesome theme?</p>
+                      <p>Nos fale sobre mais sobre o que você deseja!</p>
                     </a>
                   </li>
                   <!-- end message -->
@@ -118,10 +122,10 @@ $header = '<header class="main-header">
                         <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
-                        AdminLTE Design Team
-                        <small><i class="fa fa-clock-o"></i> 2 hours</small>
+                        Loja Fictícia
+                        <small><i class="fa fa-clock-o"></i> 2 horas</small>
                       </h4>
-                      <p>Why not buy a new awesome theme?</p>
+                      <p>Temos itens em promoção!</p>
                     </a>
                   </li>
                   <li>
@@ -130,10 +134,10 @@ $header = '<header class="main-header">
                         <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
-                        Developers
-                        <small><i class="fa fa-clock-o"></i> Today</small>
+                        Desenvolvedores
+                        <small><i class="fa fa-clock-o"></i> Hoje</small>
                       </h4>
-                      <p>Why not buy a new awesome theme?</p>
+                      <p>Dseja novas mudanças em seu programa?</p>
                     </a>
                   </li>
                   <li>
@@ -142,10 +146,10 @@ $header = '<header class="main-header">
                         <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="User Image">
                       </div>
                       <h4>
-                        Sales Department
-                        <small><i class="fa fa-clock-o"></i> Yesterday</small>
+                        Departamento de Vendas
+                        <small><i class="fa fa-clock-o"></i> Ontem</small>
                       </h4>
-                      <p>Why not buy a new awesome theme?</p>
+                      <p>Itens que você vializou está com descontos imperdíveis!</p>
                     </a>
                   </li>
                   <li>
@@ -155,14 +159,14 @@ $header = '<header class="main-header">
                       </div>
                       <h4>
                         Reviewers
-                        <small><i class="fa fa-clock-o"></i> 2 days</small>
+                        <small><i class="fa fa-clock-o"></i> 2 dias</small>
                       </h4>
-                      <p>Why not buy a new awesome theme?</p>
+                      <p>Produto à caminho</p>
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="footer"><a href="#">See All Messages</a></li>
+              <li class="footer"><a href="#">Ver todas as mensagens</a></li>
             </ul>
           </li>
           <!-- Notifications: style can be found in dropdown.less -->
@@ -172,34 +176,33 @@ $header = '<header class="main-header">
               <span class="label label-warning">10</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header">Você tem 10 notificações</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                      <i class="fa fa-users text-aqua"></i> Temos 5 novos membros hoje!
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
+                      <i class="fa fa-warning text-yellow"></i> Você possui compras pendentes!
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
+                      <i class="fa fa-users text-red"></i> Atualizações de privacidade realizadas!
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                      <i class="fa fa-shopping-cart text-green"></i> Foram reralizadas 25 vendas!
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-user text-red"></i> You changed your username
+                      <i class="fa fa-user text-red"></i> Você mudou seu nome com sucesso!
                     </a>
                   </li>
                 </ul>
@@ -214,14 +217,14 @@ $header = '<header class="main-header">
               <span class="label label-danger">9</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 9 tasks</li>
+              <li class="header">Você tem 09 tarefas pendentes</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Design some buttons
+                        Crie alguns botões
                         <small class="pull-right">20%</small>
                       </h3>
                       <div class="progress xs">
@@ -235,7 +238,7 @@ $header = '<header class="main-header">
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Create a nice theme
+                        Atualize o tema
                         <small class="pull-right">40%</small>
                       </h3>
                       <div class="progress xs">
@@ -249,7 +252,7 @@ $header = '<header class="main-header">
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Some task I need to do
+                        Algumas tarefas você precisa fazer
                         <small class="pull-right">60%</small>
                       </h3>
                       <div class="progress xs">
@@ -263,7 +266,7 @@ $header = '<header class="main-header">
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Make beautiful transitions
+                        Faça belas modificações
                         <small class="pull-right">80%</small>
                       </h3>
                       <div class="progress xs">
@@ -277,7 +280,7 @@ $header = '<header class="main-header">
                 </ul>
               </li>
               <li class="footer">
-                <a href="#">View all tasks</a>
+                <a href="#">Ver todas as tarefas</a>
               </li>
             </ul>
           </li>
@@ -294,20 +297,20 @@ $header = '<header class="main-header">
 
                 <p>
                   '.$usuario.' - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  <small>Membro desde Set. 2018</small>
                 </p>
               </li>
               <!-- Menu Body -->
               <li class="user-body">
                 <div class="row">
                   <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
+                    <a href="#">Seguidores</a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
+                    <a href="#">Vendas</a>
                   </div>
                   <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
+                    <a href="#">Amigos</a>
                   </div>
                 </div>
                 <!-- /.row -->
@@ -315,10 +318,10 @@ $header = '<header class="main-header">
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                  <a href="#" class="btn btn-default btn-flat">Perfil</a>
                 </div>
                 <div class="pull-right">
-                  <a href="'.$url.'destroy.php" class="btn btn-default btn-flat">Sign out</a>
+                  <a href="'.$url.'destroy.php" class="btn btn-default btn-flat">Sair</a>
                 </div>
               </li>
             </ul>
@@ -361,7 +364,7 @@ $header = '<header class="main-header">
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
-        <li class="header">MAIN NAVIGATION</li>
+        <li class="header">Principal</li>
         <li class="active treeview">
           <a href="'.$url.'">
             <i class="fa fa-dashboard"></i> <span>Painel de Controle</span>
@@ -454,10 +457,10 @@ $header = '<header class="main-header">
 
   $footer = '<footer class="main-footer">
     <div class="pull-right hidden-xs">
-      <b>Version</b> 2.3.8
+      <b>Versão</b> 2.3.8
     </div>
-    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
-    reserved.
+    <strong>Copyright &copy; 2014-2016 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> Todos os 
+    direitos reservados.
   </footer>
 
   <!-- Control Sidebar -->
@@ -471,16 +474,16 @@ $header = '<header class="main-header">
     <div class="tab-content">
       <!-- Home tab content -->
       <div class="tab-pane" id="control-sidebar-home-tab">
-        <h3 class="control-sidebar-heading">Recent Activity</h3>
+        <h3 class="control-sidebar-heading">Atividade Recente</h3>
         <ul class="control-sidebar-menu">
           <li>
             <a href="javascript:void(0)">
               <i class="menu-icon fa fa-birthday-cake bg-red"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Langdon\'s Birthday</h4>
+                <h4 class="control-sidebar-subheading">Seu Aniversário</h4>
 
-                <p>Will be 23 on April 24th</p>
+                <p>Será dia 09 de Maio</p>
               </div>
             </a>
           </li>
@@ -489,9 +492,9 @@ $header = '<header class="main-header">
               <i class="menu-icon fa fa-user bg-yellow"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Frodo Updated His Profile</h4>
+                <h4 class="control-sidebar-subheading">Maria atualizou seu perfil</h4>
 
-                <p>New phone +1(800)555-1234</p>
+                <p>Novo telefone (83)99989-6671</p>
               </div>
             </a>
           </li>
@@ -500,9 +503,9 @@ $header = '<header class="main-header">
               <i class="menu-icon fa fa-envelope-o bg-light-blue"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Nora Joined Mailing List</h4>
+                <h4 class="control-sidebar-subheading">Rita lhe enviou um email</h4>
 
-                <p>nora@example.com</p>
+                <p>rita@exemplo.com</p>
               </div>
             </a>
           </li>
@@ -511,21 +514,21 @@ $header = '<header class="main-header">
               <i class="menu-icon fa fa-file-code-o bg-green"></i>
 
               <div class="menu-info">
-                <h4 class="control-sidebar-subheading">Cron Job 254 Executed</h4>
+                <h4 class="control-sidebar-subheading">Wladmyr executou 250 novas linhas</h4>
 
-                <p>Execution time 5 seconds</p>
+                <p>Execução em 05 segundos</p>
               </div>
             </a>
           </li>
         </ul>
         <!-- /.control-sidebar-menu -->
 
-        <h3 class="control-sidebar-heading">Tasks Progress</h3>
+        <h3 class="control-sidebar-heading">Progresso de Tarefas</h3>
         <ul class="control-sidebar-menu">
           <li>
             <a href="javascript:void(0)">
               <h4 class="control-sidebar-subheading">
-                Custom Template Design
+              Customizar design
                 <span class="label label-danger pull-right">70%</span>
               </h4>
 
@@ -537,7 +540,7 @@ $header = '<header class="main-header">
           <li>
             <a href="javascript:void(0)">
               <h4 class="control-sidebar-subheading">
-                Update Resume
+              Atualização atual
                 <span class="label label-success pull-right">95%</span>
               </h4>
 
@@ -549,7 +552,7 @@ $header = '<header class="main-header">
           <li>
             <a href="javascript:void(0)">
               <h4 class="control-sidebar-subheading">
-                Laravel Integration
+              Integrar com git hub
                 <span class="label label-warning pull-right">50%</span>
               </h4>
 
@@ -561,7 +564,7 @@ $header = '<header class="main-header">
           <li>
             <a href="javascript:void(0)">
               <h4 class="control-sidebar-subheading">
-                Back End Framework
+              Back End
                 <span class="label label-primary pull-right">68%</span>
               </h4>
 
@@ -581,49 +584,49 @@ $header = '<header class="main-header">
       <!-- Settings tab content -->
       <div class="tab-pane" id="control-sidebar-settings-tab">
         <form method="post">
-          <h3 class="control-sidebar-heading">General Settings</h3>
+          <h3 class="control-sidebar-heading">Configurações Gerais</h3>
 
           <div class="form-group">
             <label class="control-sidebar-subheading">
-              Report panel usage
+              Permitir redericionamento de emails
               <input type="checkbox" class="pull-right" checked>
             </label>
 
             <p>
-              Some information about this general settings option
+              Algumas informações serão usadas para melhoria da usabilidade.
             </p>
           </div>
           <!-- /.form-group -->
 
           <div class="form-group">
             <label class="control-sidebar-subheading">
-              Allow mail redirect
+              Permitir redericionamento de emails
               <input type="checkbox" class="pull-right" checked>
             </label>
 
             <p>
-              Other sets of options are available
+              Outras opções serão disponíveis em breve
             </p>
           </div>
           <!-- /.form-group -->
 
           <div class="form-group">
             <label class="control-sidebar-subheading">
-              Expose author name in posts
+            Expôr nome do author nos posts
               <input type="checkbox" class="pull-right" checked>
             </label>
 
             <p>
-              Allow the user to show his name in blog posts
+            Permitir que meu nome seja exibido nos meus posts
             </p>
           </div>
           <!-- /.form-group -->
 
-          <h3 class="control-sidebar-heading">Chat Settings</h3>
+          <h3 class="control-sidebar-heading">Configurações de Chat</h3>
 
           <div class="form-group">
             <label class="control-sidebar-subheading">
-              Show me as online
+            Ficar online
               <input type="checkbox" class="pull-right" checked>
             </label>
           </div>
@@ -631,7 +634,7 @@ $header = '<header class="main-header">
 
           <div class="form-group">
             <label class="control-sidebar-subheading">
-              Turn off notifications
+            Desativar notificações
               <input type="checkbox" class="pull-right">
             </label>
           </div>
@@ -639,7 +642,7 @@ $header = '<header class="main-header">
 
           <div class="form-group">
             <label class="control-sidebar-subheading">
-              Delete chat history
+            Deletar histórico do chat
               <a href="javascript:void(0)" class="text-red pull-right"><i class="fa fa-trash-o"></i></a>
             </label>
           </div>
